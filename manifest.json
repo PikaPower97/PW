@@ -1,0 +1,40 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Parkour Warrior NEW",
+        "description": "The Ultimate Scripting for Parkour Maps",
+        "uuid": "03946706-e8f6-4480-ba91-1c42df7182e8",
+        "min_engine_version": [ 1, 19, 0 ],
+        "version": [ 3, 0, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Thingy",
+            "type": "data",
+            "uuid": "a7cb34b8-ce58-40d6-87a4-50c21d6c3adb",
+            "version": [ 1, 0, 0 ]
+        },
+        {
+            "description": "Script Resources",
+            "uuid": "239c134f-67bf-4738-9bcc-8c69d31b1f72",
+            "version": [1, 0, 0],
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/index.js"
+        }        
+    ],
+    "dependencies": [
+        {
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.4.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.18.0-beta"
+		}
+    ]
+}
